@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo2">
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"/>
+    <EditText
+        android:id="@+id/pasiva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"/>
+    <EditText
+        android:id="@+id/habilidadEnLaQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"/>
+    <EditText
+        android:id="@+id/habilidadEnLaW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Posicion"/>
+    <EditText
+        android:id="@+id/habilidadEnLaE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Partidos_Jugados"/>
+    <EditText
+        android:id="@+id/habilidadEnLaR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Victorias"/>
+    <Button
+        android:id="@+id/crear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR"/>
+</LinearLayout>

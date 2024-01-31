@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/buscadorDeCampeones"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Jugadores" />
+
+    <item
+        android:id="@+id/buscadorDeInvocadoresFragment"
+        android:icon="@drawable/padelworld"
+        android:title="Parejas" />
+
+    <item
+        android:id="@+id/buscadorDeForoFragment"
+        android:icon="@drawable/padelworld"
+        android:title="Torneos" />
+</menu>
